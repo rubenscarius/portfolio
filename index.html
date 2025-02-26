@@ -16,42 +16,54 @@
     <header>
         <img src="assets/img/perfil.png" alt="">
         <div class="title-content">
-            <h1>Rubens Carius</h1>
+            <h1 id="name"></h1>
             <ul class="information">
-                <li class="info">
+                <li class="info" >
                     <span class="material-symbols-outlined">
                         person
                     </span>
-                    Junior Developer
+                    <span id="level"></span>
                 </li>
-                <li class="info">
+                <li class="info" >
                     <span class="material-symbols-outlined">
                         home
                     </span>
-                    Fortaleza - CE
+                    <span id="city"></span>
                 </li>
-                <li class="info">
+                <li class="info" >
                     <span class="material-symbols-outlined">
                         call
                     </span>
-                    (85) 99999-9999
+                    <span id="phone"></span>
                 </li>
-                <li class="info">
+                <li class="info" >
                     <span class="material-symbols-outlined">
                         mail
                     </span>
-                    rubenscarius.dev@gmail.com
+                    <span id="email"></span>
                 </li>
             </ul>
         </div>
     </header>
+
     <section class="acordeon">
-        <button class="trigger" type="button">Idiomas <i class="fa-solid fa-angle-down"></i></button>
+        <button class="trigger" type="button">Formação <i class="fa-solid fa-angle-down"></i></i></button>
 
         <div class="content">
             <ul class="acordeon-list">
-                <li>Português</li>
-                <li>Inglês</li>
+                <li>Principal
+                    <ul>
+                        <li>ADS - Análise e Desenvolviemnto de Sistemas</li>
+                    </ul>
+                </li>
+                
+                <li>Extra
+                    <ul>
+                        <li>Responsive Web Design</li>
+                        <li>Desenvolvimento Frontend com Angular</li>
+                    </ul>
+                </li>
+
             </ul>
         </div>
     </section>
@@ -63,14 +75,32 @@
             <ul class="acordeon-list">
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
+                <li>JavaScript
+                    <ul>
+                        <li>React</li>
+                        <li>Angular</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="acordeon">
+        <button class="trigger" type="button">Idiomas <i class="fa-solid fa-angle-down"></i></button>
+
+        <div class="content">
+            <ul class="acordeon-list">
+                <li>Português</li>
+                <li>Inglês</li>
             </ul>
         </div>
     </section>
 
 
     <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js" type="module"></script>
+    <script src="assets/js/main.js" type="module"></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 const acordeon = document.querySelectorAll('.acordeon');
 
-acordeon.forEach(acordeon => {
-    acordeon.addEventListener('click', () => {
-        acordeon.classList.toggle('open');
+acordeon.forEach(item => {
+    item.addEventListener('click', () => {
+        item.classList.toggle('open');
     });
 });

@@ -47,3 +47,7 @@ ul.acordeon-list {
     justify-content: space-around;
     list-style-type: circle;
 }
+
+ul.acordeon-list li {
+    margin: 0.3rem;
+}
