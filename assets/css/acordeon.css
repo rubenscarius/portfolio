@@ -51,3 +51,7 @@ ul.acordeon-list {
 ul.acordeon-list li {
     margin: 0.3rem;
 }
+
+.rotate {
+    transform: rotate(180deg);
+}
